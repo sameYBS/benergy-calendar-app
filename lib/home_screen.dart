@@ -4,7 +4,7 @@ import 'package:table_calendar/table_calendar.dart';
 import 'package:app/schedule_card.dart';
 import 'package:app/today_banner.dart';
 import 'package:app/schedule_bottom_sheet.dart';
-import 'package:app/color.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(),
       //새일정버튼
       floatingActionButton: FloatingActionButton(
-        backgroundColor: PRIMARY_COLOR,
+        backgroundColor: Color(0xFF0DB2B2),
         onPressed: () {
           showModalBottomSheet(
             context: context,

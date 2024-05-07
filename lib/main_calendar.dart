@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:app/color.dart';
 
 class MainCalendar extends StatefulWidget {
   const MainCalendar({Key? key}) : super(key: key);
@@ -58,10 +57,8 @@ class _MainCalendarState extends State<MainCalendar> {
         isTodayHighlighted: true,
         todayDecoration: BoxDecoration(
           color: Colors.purpleAccent,
-          shape: BoxShape.circle,
         ),
         defaultDecoration: BoxDecoration(
-          shape: BoxShape.circle,
           color: Colors.white,
         ),
         weekendDecoration: BoxDecoration(
@@ -69,17 +66,16 @@ class _MainCalendarState extends State<MainCalendar> {
           color: Colors.white,
         ),
         selectedDecoration: BoxDecoration(
-          color: LIGHT_GREY_COLOR,
+          color: Colors.grey[200],
           borderRadius: BorderRadius.circular(100.0),
-          shape: BoxShape.circle,
         ),
         defaultTextStyle: TextStyle(
           fontWeight: FontWeight.w600,
-          color: DARK_GREY_COLOR,
+          color: Colors.grey[600],
         ),
         weekendTextStyle: TextStyle(
           fontWeight: FontWeight.w600,
-          color: DARK_GREY_COLOR,
+          color: Colors.grey[600],
         ),
         selectedTextStyle: TextStyle(
           fontWeight: FontWeight.w600,

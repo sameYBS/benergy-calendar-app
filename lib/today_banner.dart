@@ -1,4 +1,3 @@
-import 'package:app/color.dart';
 import 'package:flutter/material.dart';
 
 class TodayBanner extends StatelessWidget {
@@ -20,7 +19,7 @@ class TodayBanner extends StatelessWidget {
     );
 
     return Container(
-      color: PRIMARY_COLOR,
+      color: Color(0xFF0DB2B2),
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
         child: Row(

@@ -23,6 +23,7 @@ dependencies:
   provider: ^6.1.2
   uuid: ^4.3.2
   cupertino_icons: ^1.0.2
+  scrollable_positioned_list: ^0.3.8
   
 
 dev_dependencies:

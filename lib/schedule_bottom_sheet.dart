@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:app/custom_text_field.dart';
-import 'package:app/color.dart';
 
 class ScheduleBottomSheet extends StatefulWidget {
   const ScheduleBottomSheet({Key? key}) : super(key: key);

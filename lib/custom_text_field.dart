@@ -1,4 +1,3 @@
-import 'package:app/color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -21,7 +20,7 @@ class CustomTextField extends StatelessWidget {
         Text(
           label,
           style: TextStyle(
-            color: PRIMARY_COLOR,
+            color: Color(0xFF0DB2B2),
             fontWeight: FontWeight.w600,
           ),
         ),

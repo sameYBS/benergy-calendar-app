@@ -1,4 +1,3 @@
-import 'package:app/color.dart';
 import 'package:flutter/material.dart';
 
 class ScheduleCard extends StatelessWidget {
@@ -19,7 +18,7 @@ class ScheduleCard extends StatelessWidget {
       decoration: BoxDecoration(
         border: Border.all(
           width: 1.0,
-          color: PRIMARY_COLOR,
+          color: Color(0xFF0DB2B2),
         ),
         borderRadius: BorderRadius.circular(8.0),
       ),
@@ -68,7 +67,7 @@ class _Time extends StatelessWidget {
   Widget build(BuildContext context) {
     final textStyle = TextStyle(
       fontWeight: FontWeight.w600,
-      color: PRIMARY_COLOR,
+      color: Color(0xFF0DB2B2),
       fontSize: 16.0,
     );
 
